@@ -3,5 +3,6 @@ const pug = require('gulp-pug');
 module.exports = build_pug = () => {
 	return app.gulp.src('src/pages/**/*.pug')
 		.pipe(pug())
-		.pipe(app.gulp.dest('build'));
+		.pipe(app.gulp.dest('build'))
+		.pipe(app.browsersync.stream());
 }

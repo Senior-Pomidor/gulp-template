@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "watch": "gulp watch",
+    "build": "gulp build"
   },
   "author": "Senior-Pomidor",
   "license": "ISC",
