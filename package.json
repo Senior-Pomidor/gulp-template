@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Project template with gulp",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "test"
   },
@@ -18,5 +19,10 @@
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^7.0.1",
     "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass-bulk-importer": "^3.0.2",
+    "require-dir": "^1.2.0"
   }
 }

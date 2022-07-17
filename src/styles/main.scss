@@ -1,0 +1,10 @@
+// @import 'base/*.scss';
+// @import 'global/*.scss';
+// @import './vars/**/*.scss';
+@import '_*/**/*.scss';
+@import '../components/**/*.scss';
+@import 'styles/**/*.scss';
+
+.demo {
+	color: $red;
+}
