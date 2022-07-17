@@ -16,5 +16,5 @@ module.exports = build_scss = () => {
 		}))
 		.pipe(concat('style.min.css'))
 		.pipe(map.write('../sourcemaps/'))
-		.pipe(app.gulp.dest('dist/styles/'))
+		.pipe(app.gulp.dest('build/styles/'))
 }

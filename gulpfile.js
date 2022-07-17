@@ -12,5 +12,8 @@ global.app = {
 exports.build_pug = tasks.build_pug;
 exports.build_scss = tasks.build_scss;
 
+// наборы задач
+const mainTasks = gulp.series(tasks.build_pug, tasks.build_scss);
 
-// exports.default
+// сценарии
+exports.watch = gulp.series(mainTasks, tasks.watch);
